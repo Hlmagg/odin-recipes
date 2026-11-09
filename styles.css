@@ -10,15 +10,56 @@ h1 {
     font-size: 28px;
     color: black;
 }
+h2 {
+    display: block;
+    margin: 32px;
+    text-align: center;
+    background-color: rgb(237, 219, 239);
+    font-size: 28px;
+    color: black;
+}
 ul {
     align-items: center;
     display: flexbox;
     align-items: center;
     list-style-type: none;
 }
+
 li {
     padding: 12px;
     text-align: center;
     font-size: 18px;
     color: black;
+}
+footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 44, 103);
+    color: aliceblue;
+}
+#home {
+    text-align: center;
+    display: flex;
+    padding: 12px;
+    margin-left: 50%;
+}
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 25%;
+}
+p {
+    text-align: center;
+}
+footer p {
+    
+    text-align: center;
+}
+footer p a {
+    color: rgb(233, 224, 161);
 }
